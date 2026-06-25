@@ -10,3 +10,6 @@
 `python watermark.py encode namafile.pdf "pesan rahasia"`
 - Membaca teks rahasia (decode)
 `python watermark.py decode namafile`
+
+## Kelemahan
+- kompresi file (data rahasia akan hilang karena ditulis setelah EOF)
